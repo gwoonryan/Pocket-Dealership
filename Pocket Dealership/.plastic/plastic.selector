@@ -1,0 +1,4 @@
+repository "Pocket Dealership@NR_Idle_Games@cloud"
+  path "/"
+    br "/main"
+    co "/main"
