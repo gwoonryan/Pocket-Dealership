@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class SceneLoaderScript : MonoBehaviour
 {
 
+    private void Start()
+    {
+        transform.localScale = new Vector3(1, 1, 1);
+    }
+
     public Animator crossfade;
     public void LoadScene(int scene)
     {

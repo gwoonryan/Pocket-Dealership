@@ -1619,18 +1619,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 762.27856
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1325.838
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 809.4323
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2990699069185661615, guid: 21e5be4b458cf3245a3f19be412869e6,
         type: 3}

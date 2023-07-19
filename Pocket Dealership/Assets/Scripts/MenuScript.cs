@@ -8,15 +8,15 @@ public class MenuScript : MonoBehaviour
     public SceneLoaderScript loader;
     public void PlayGame()
     {
-        loader.LoadScene(1);
+        loader.LoadScene(2);
     }
     public void OpenSettingsMenu()
     {
-        loader.LoadScene(2);
+        loader.LoadScene(1);
     }
     public void BackToGame()
     {
-        loader.LoadScene(1);
+        loader.LoadScene(2);
     }
     public void OpenShopMenu()
     {
