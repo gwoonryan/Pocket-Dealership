@@ -5,20 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
+    public SceneLoaderScript loader;
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        loader.LoadScene(1);
     }
     public void OpenSettingsMenu()
     {
-        SceneManager.LoadScene(2);
+        loader.LoadScene(2);
     }
     public void BackToGame()
     {
-        SceneManager.LoadScene(1);
+        loader.LoadScene(1);
     }
     public void OpenShopMenu()
     {
-        SceneManager.LoadScene(3);
+        loader.LoadScene(3);
     }
 }
